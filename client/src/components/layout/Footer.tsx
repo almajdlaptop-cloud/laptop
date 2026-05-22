@@ -32,7 +32,7 @@ export default function Footer() {
             <div className="flex items-center gap-3">
               {[
                 { icon: Facebook, href: 'https://www.facebook.com/almajd766999', label: 'Facebook' },
-                { icon: Instagram, href: '#', label: 'Instagram' },
+                { icon: Instagram, href: 'https://www.instagram.com/mrkzlmjdlkhdmt?igsh=MXJhZHBzNG02ZzJ2OQ==', label: 'Instagram' },
                 { icon: Twitter, href: '#', label: 'Twitter' },
                 { icon: MessageCircle, href: '#', label: 'WhatsApp' },
               ].map(({ icon: Icon, href, label }) => (

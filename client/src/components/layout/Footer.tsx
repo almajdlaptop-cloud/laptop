@@ -31,7 +31,7 @@ export default function Footer() {
             </p>
             <div className="flex items-center gap-3">
               {[
-                { icon: Facebook, href: '#', label: 'Facebook' },
+                { icon: Facebook, href: 'https://www.facebook.com/almajd766999', label: 'Facebook' },
                 { icon: Instagram, href: '#', label: 'Instagram' },
                 { icon: Twitter, href: '#', label: 'Twitter' },
                 { icon: MessageCircle, href: '#', label: 'WhatsApp' },
@@ -79,9 +79,9 @@ export default function Footer() {
             <h4 className="font-bold text-foreground">{locale === 'ar' ? 'تواصل معنا' : 'Contact Us'}</h4>
             <div className="space-y-3">
               {[
-                { icon: Phone, text: '+963 11 123 4567' },
+                { icon: Phone, text: '+963 932497 080' },
                 { icon: Mail, text: 'support@laptopstore.sy' },
-                { icon: MapPin, text: locale === 'ar' ? 'دمشق، سوريا' : 'Damascus, Syria' },
+                { icon: MapPin, text: locale === 'ar' ? 'مصياف-شارع الماركات مقابل النافذة الواحدة ' : 'Damascus, Syria' },
               ].map(({ icon: Icon, text }) => (
                 <div key={text} className="flex items-center gap-3 text-sm text-muted-foreground">
                   <Icon className="w-4 h-4 text-primary flex-shrink-0" />
